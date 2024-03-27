@@ -20,6 +20,10 @@ body{
     font-weight: bold;
     margin-top: 50px;
 }
+#header_button:hover{
+    color: white;
+    border-color:white;
+}
 .nav-link:hover{
     background-color: black;
 }
@@ -34,6 +38,7 @@ body{
 }
 #about_button:hover,#contact button:hover{
     border-color: black;
+    color: rgb(188, 135, 55);
 }
 #name{
     width: 100%;
@@ -83,7 +88,7 @@ color: white;
     margin-top: 5rem;
 }
 /* WORK */
-#work_container{
+#work_container,#study_container{
     height: 100%;
     padding: 0;
 }
@@ -92,8 +97,8 @@ color: white;
    
    
 }
-#work_text{
-   
+#work_text,#study_text {
+    padding: 1rem;
     flex: 50%; 
     height:40vh ;
 }
@@ -105,20 +110,14 @@ color: white;
     
 }
 /* STUDIES */
-#study_container{
-    height: 100%;
-    padding: 0;
-}
+
 #study{
     width: 100%;
      
    
 }
-#study_text{
-   
-    flex: 50%; 
-    height: 40vh;
-}
+
+
 #study_photo{
     flex: 50%;
     background-image: url(img/studium.png);
